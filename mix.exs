@@ -35,9 +35,24 @@ defmodule LifeLessons.Mixfile do
      {:phoenix_ecto, "~> 3.0"},
      {:postgrex, ">= 0.0.0"},
      {:phoenix_html, "~> 2.6"},
-     {:phoenix_live_reload, "~> 1.0", only: :dev},
      {:gettext, "~> 0.11"},
-     {:cowboy, "~> 1.0"}]
+     {:cowboy, "~> 1.0"},
+
+     # core
+     {:comeonin, "~> 2.6"},
+     {:httpoison, "~> 0.10.0"},
+     {:bamboo, "~> 0.7"},
+     {:bamboo_smtp, "~> 1.2"},
+
+     # deployment stuff
+     {:distillery, "~> 0.10.1"},
+
+     # dev stuff
+     {:phoenix_live_reload, "~> 1.0", only: :dev},
+     {:credo, "~> 0.5", only: [:dev, :test]},
+     {:dogma, "~> 0.1", only: :dev},
+     {:dialyxir, "~> 0.4", only: [:dev, :test]},
+   ]
   end
 
   # Aliases are shortcuts or tasks specific to the current project.
