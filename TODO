@@ -1,0 +1,8 @@
+## A user should be able to:
+ [] signup using email
+ [] create/update/delete/list a life lesson / quote
+ [] get a random and uniformly distributed quote as an email every day
+ [] make their lessons public
+ [] include another user's life lessons in their feed
+ [] setup a recurring payment for hosting
+ [] use a git(hub) repository as a source of life lessons
